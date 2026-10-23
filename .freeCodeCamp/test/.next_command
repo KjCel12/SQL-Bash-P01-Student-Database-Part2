@@ -191,3 +191,4 @@ __vsc_prompt_cmd_original
 sudo service postgresql start
 psql --username=freecodecamp --dbname=postgres
 ./student_info.sh
+echo -e "\nList of majors, in alphabetical order, that either no student is taking or has a student whose first name contains a case insensitive 'ma':"
