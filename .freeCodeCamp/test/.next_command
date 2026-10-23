@@ -90,3 +90,5 @@ echo "$($PSQL "SELECT first_name, last_name, gpa FROM students WHERE gpa = 4.0")
 ./student_info.sh
 psql --username=freecodecamp --dbname=postgrespsql --username=freecodecamp --dbname=postgres
 ./student_info.sh
+echo "$($PSQL "SELECT first_name, last_name, gpa FROM students WHERE last_name >= 'R' AND (gpa > 3.8 OR gpa < 2.0)")"
+./student_info.sh
