@@ -89,3 +89,4 @@ chmod +x student_info.sh
 echo "$($PSQL "SELECT first_name, last_name, gpa FROM students WHERE gpa = 4.0")"
 ./student_info.sh
 psql --username=freecodecamp --dbname=postgrespsql --username=freecodecamp --dbname=postgres
+./student_info.sh
