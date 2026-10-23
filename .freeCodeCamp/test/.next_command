@@ -190,3 +190,4 @@ __vsc_prompt_cmd_original
 __vsc_prompt_cmd_original
 sudo service postgresql start
 psql --username=freecodecamp --dbname=postgres
+./student_info.sh
