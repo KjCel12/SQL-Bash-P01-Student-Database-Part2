@@ -86,3 +86,5 @@ psql -U postgres < students.sql
 touch student_info.sh
 chmod +x student_info.sh
 ./student_info.sh
+echo "$($PSQL "SELECT first_name, last_name, gpa FROM students WHERE gpa = 4.0")"
+./student_info.sh
