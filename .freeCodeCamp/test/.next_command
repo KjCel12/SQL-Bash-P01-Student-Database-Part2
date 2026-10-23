@@ -181,3 +181,4 @@ sudo service postgresql start
 sudo service postgresql start
 psql -U postgres < students.sql
 psql --username=freecodecamp --dbname=postgres
+./student_info.sh
