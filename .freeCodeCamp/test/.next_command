@@ -184,3 +184,5 @@ psql --username=freecodecamp --dbname=postgres
 ./student_info.sh
 ./student_info.sh
 ./student_info.sh
+echo "$($PSQL "SELECT ROUND(AVG(gpa), 2) FROM students")"
+./student_info.sh
